@@ -1,5 +1,15 @@
 # Violent-Pi: OWASP Cybersecurity & Penetration Testing Suite for Pi Coder
 
+<p align="center">
+  <img src="assets/preview.png" alt="Violent-Pi Banner" width="100%" />
+</p>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Pi Package](https://img.shields.io/badge/Pi-Package-8A2BE2.svg)](https://pi.dev)
+[![OWASP WSTG](https://img.shields.io/badge/OWASP-WSTG%20v4.2-00C49F.svg)](https://owasp.org)
+[![OWASP Top 10](https://img.shields.io/badge/OWASP-Top%2010-blue.svg)](https://owasp.org)
+[![KanyCrew](https://img.shields.io/badge/KanyCrew-Offensive%20Security-ff1493.svg)](https://github.com/KanyCrew)
+
 **Violent-Pi** trasforma **Pi Coding Agent** in un assistente avanzato per **Penetration Testing**, **Application Security (AppSec)** e **Secure Code Review**, basato direttamente sulle metodologie ufficiali **OWASP Web Security Testing Guide (WSTG v4.2)** e **OWASP Top 10 (2021/2025)**.
 
 ---

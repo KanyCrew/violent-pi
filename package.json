@@ -38,6 +38,7 @@
     "extensions",
     "skills",
     "prompts",
+    "assets",
     "SYSTEM.md",
     "APPEND_SYSTEM.md",
     "README.md",
@@ -53,7 +54,8 @@
     ],
     "prompts": [
       "./prompts"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/KanyCrew/violent-pi/main/assets/preview.png"
   },
   "scripts": {
     "test": "node --input-type=module -e 'import(\"./extensions/cybersec-mode.ts\"); console.log(\"Extension loads cleanly\");'",
