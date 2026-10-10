@@ -1,0 +1,15 @@
+{
+  "enableSkillCommands": true,
+  "skills": [
+    ".pi/skills"
+  ],
+  "extensions": [
+    ".pi/extensions/cybersec-mode.ts"
+  ],
+  "prompts": [
+    ".pi/prompts"
+  ],
+  "packages": [
+    ".."
+  ]
+}

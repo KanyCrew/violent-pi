@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Packaged tarballs
+*.tgz
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Large raw cloned repositories (kept locally if needed, excluded from git/npm)
+owasp/
+
+# Pi session logs and cache
+.pi/sessions/
+.pi/mcp-cache.json

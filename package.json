@@ -1,0 +1,78 @@
+{
+  "name": "violent-pi",
+  "version": "1.0.0",
+  "description": "Offensive Security & Penetration Testing suite for Pi Coding Agent, powered by OWASP WSTG v4.2 and OWASP Top 10",
+  "type": "module",
+  "main": "extensions/cybersec-mode.ts",
+  "license": "MIT",
+  "author": "Max Bozza",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "pi-skill",
+    "security",
+    "cybersecurity",
+    "penetration-testing",
+    "pentest",
+    "owasp",
+    "owasp-top-10",
+    "wstg",
+    "appsec",
+    "offensive-security",
+    "code-audit",
+    "threat-modeling"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "extensions",
+    "skills",
+    "prompts",
+    "SYSTEM.md",
+    "APPEND_SYSTEM.md",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/cybersec-mode.ts"
+    ],
+    "skills": [
+      "./skills/owasp-security-tester"
+    ],
+    "prompts": [
+      "./prompts"
+    ]
+  },
+  "scripts": {
+    "test": "node --input-type=module -e 'import(\"./extensions/cybersec-mode.ts\"); console.log(\"Extension loads cleanly\");'",
+    "recon": "./skills/owasp-security-tester/scripts/quick-recon.sh .",
+    "owasp-lookup": "node ./skills/owasp-security-tester/scripts/wstg-lookup.js"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-ai": {
+      "optional": true
+    },
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    },
+    "typebox": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
