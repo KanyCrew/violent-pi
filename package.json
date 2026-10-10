@@ -5,7 +5,15 @@
   "type": "module",
   "main": "extensions/cybersec-mode.ts",
   "license": "MIT",
-  "author": "Max Bozza",
+  "author": "KanyCrew",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanyCrew/violent-pi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KanyCrew/violent-pi/issues"
+  },
+  "homepage": "https://github.com/KanyCrew/violent-pi#readme",
   "keywords": [
     "pi-package",
     "pi",
