@@ -1,5 +1,5 @@
 {
-  "name": "violent-pi",
+  "name": "@kanycrew/violent-pi",
   "version": "1.0.0",
   "description": "Offensive Security & Penetration Testing suite for Pi Coding Agent, powered by OWASP WSTG v4.2 and OWASP Top 10",
   "type": "module",
